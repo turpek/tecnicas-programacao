@@ -1,0 +1,12 @@
+#BlueJ class context
+comment0.target=LabExercicio
+comment0.text=\n\ Classe\ usada\ para\ resolver\ o\ exercicio\ 3\ do\ laboratorio\ 1.\n\ \n\ @author\ Guilherme\ Teixeira\ de\ Faria\n\ @version\ 2025.05.13\n
+comment1.params=maxNumberOfStudents
+comment1.target=LabExercicio(int)
+comment1.text=\n\ Construtor\ para\ objetos\ da\ classe\ LabExcercicio\n
+comment2.params=fullName\ studentID\ credits
+comment2.target=Student\ getStudent(java.lang.String,\ java.lang.String,\ int)
+comment2.text=\n\ Um\ exemplo\ de\ um\ m\u00E9todo\ -\ substitua\ este\ coment\u00E1rio\ pelo\ seu\ pr\u00F3prio\n\ \n\ @param\ \ y\ \ \ um\ exemplo\ de\ um\ par\u00E2metro\ de\ m\u00E9todo\n\ @return\ \ \ \ \ a\ soma\ de\ x\ e\ y\ \n
+comment3.params=
+comment3.target=LabClass\ getLabClass()
+numComments=4
