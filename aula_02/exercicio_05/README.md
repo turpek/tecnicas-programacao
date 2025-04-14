@@ -13,22 +13,19 @@ esvaziando a máquina. O método `empty` é modificador ou acessador?**
 
 Primeiramente para a variável `total` funcionar minimamente, devemos corrigir a seguinte linha no método `printTicket`,
 
-```
-java
+```java
 total = total + balance;
 ```
 
 para
 
-```
-java
+```java
 total = total + price;
 ```
 
 após essa mudança criamos o método `empty` da seguinte forma:
 
-```
-java
+```java
     public void empty()
     {
         total = 0;
