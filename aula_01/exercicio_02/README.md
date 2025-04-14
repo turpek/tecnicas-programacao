@@ -19,9 +19,7 @@ private Circle sun2;
 
 *Obs.: detalhe sua resposta e, se necessário, adicione o código-fonte produzido para explicar melhor o que fez.*
 
-
-
-Adicionando a variável de classe `sun2` no topo da classe `Picture` da seguinte forma:
+Adicionando a variável de instância `sun2` no topo da classe `Picture` da seguinte forma:
 
 ```java
 public class Picture
@@ -32,7 +30,7 @@ public class Picture
     private Circle sun;
     private Circle sun2;
     private boolean drawn;
-    
+
     // Resto da classe
 }
 ```
@@ -43,7 +41,7 @@ No construtor `public Picture()`, devemos instanciar o segundo sol, como se segu
     public Picture()
     {
         // Inicializando as outras variáveis
-   
+
         sun = new Circle();
         sun2 = new Circle();
         drawn = false;
@@ -64,14 +62,12 @@ Agora devemos configurar as caracteristicas do segundo sol, para isso devemos us
 
 Todos os passos anteriores devem ser executados no método `draw` na classe `Picture`, como é mostrado abaixo:
 
-
-
 ```java
     public void draw()
     {
         if(!drawn) {
             // Configurações dos outros objetos...
-    
+
             sun2.changeColor("blue");
             sun2.moveHorizontal(-200);
             sun2.moveVertical(-40);
@@ -83,8 +79,6 @@ Todos os passos anteriores devem ser executados no método `draw` na classe `Pic
 ```
 
 para manter a classe consistente devemos adicionar as seguintes linhas nos métodos `setBlackAndWhite` e `setColor`
-
-
 
 ```java
     public void setBlackAndWhite()
@@ -101,5 +95,3 @@ para manter a classe consistente devemos adicionar as seguintes linhas nos méto
 ```
 
 isso faz com que quando `setBlackAndWhite` seja chamado, o segundo sol se torne preto, ja `setColor`, restaura a cor original do mesmo.
-
-
