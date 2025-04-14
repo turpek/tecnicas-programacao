@@ -14,10 +14,7 @@
 
 Para resolver esse exercício, criamos a classe `LabExercicio`, responsável por instanciar uma `LabClass` na váriavel de instância `labClass`, em seu construtor e matricular os 3 estudantes no laboratório, além de adicionar os seus respectivos créditos. Para criar os objetos do tipo `Student` criamos o método privado `getStudent` que retorna o estudante criado, esse método tem como parâmetro o nome completo, id e os créditos do estudante, com isso, no construtos chamamos esse métodos passando como argumento os dados do estudante e adicionamos em `labClass`, para obter o laboratório criamos o método pública `getLabClass` que retorna o objeto `labClass`, isso pode ser visto no código abaixo:
 
-
-
 ```java
-
 public class LabExercicio
 {
     LabClass labClass;
@@ -54,19 +51,14 @@ public class LabExercicio
     }
 
 }
-
 ```
 
 No BlueJ, criamos um objeto de `LabExercicio` passando como argumento o valor 3, que representa o número máximo de estudantes. No objeto usamos o método `getLabClass`, para obter o objeto `labClass`, nesse novo objeto, chamamos o método `printList`, que resulta na seguinte saída no console do BlueJ:
 
-
-
-*Lab class 14/04/2025
-Instructor: Raimundo   Room: A-001
-Class list:
-Branca de Neve, student ID: A00234, credits: 24
-Lisa Simpson, student ID: C22044, credits: 56
-Charlie Brown, student ID: A12003, credits: 6
+*Lab class 14/04/2025  
+Instructor: Raimundo   Room: A-001  
+Class list:  
+Branca de Neve, student ID: A00234, credits: 24  
+Lisa Simpson, student ID: C22044, credits: 56  
+Charlie Brown, student ID: A12003, credits: 6  
 Number of students: 3*
-
-
